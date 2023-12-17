@@ -1,0 +1,90 @@
+/* NAVIGATION BAR */
+.navbar {
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 8px;
+}
+
+.navbar ul li a {
+    font-size: 1rem;
+    padding-bottom: 8px;
+    padding: 0px 8px;
+
+}
+
+#logo img {
+    height: 5vh;
+}
+
+/* HOME SECTION */
+
+#home {
+    height: 85vh;
+    padding: -2px 20px;
+    padding-bottom: 50px;
+}
+
+#home h1 {
+    margin-top: 16vh;
+}
+
+#home p {
+    font-size: 1rem;
+    padding: 2px 18px;
+}
+
+#home button {
+    padding: 4px 15px;
+
+}
+
+.h-primary {
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+/* SERVICES SECTION */
+
+.s-primary {
+    font-size: 2.5rem;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.sitembox {
+    flex-direction: column;
+    /* padding: 4px 15px; */
+    /* height: 450vh; */
+}
+
+.sbox {
+    /* padding: -1px 10px; */
+    /* margin-bottom: 15px; */
+    margin-bottom: 20px;
+    padding: 14px;
+    margin: 2px 0px;
+}
+
+/* CLIENT SECTION */
+
+.c-primary {
+    font-size: 2.5rem;
+}
+
+#client-section {
+    position: relative;
+}
+
+#clients {
+    flex-direction: column;
+}
+
+/* CONTACT SECTION */
+
+.co-primary {
+    font-size: 2.5rem;
+}
+
+.form-group {
+    padding-left: 40px;
+}

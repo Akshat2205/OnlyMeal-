@@ -1,0 +1,218 @@
+/* CSS setting */
+
+* {
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    scroll-behavior: smooth;
+}
+
+body {
+    /* background-color: antiquewhite; */
+    width: 100%;
+    height: 100%;
+
+}
+
+/* NAVIGATION BAR */
+
+.navbar {
+    width: 100vw;
+    display: flex;
+    position: fixed;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.376);
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    overflow: auto;
+}
+
+
+.navbar ul li a {
+    display: block;
+    padding: 12px 25px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+}
+
+.navbar ul li a:hover {
+    color: black;
+    background-color: red;
+    border-radius: 30px;
+}
+
+#logo {
+    margin: 8px;
+}
+
+#logo img {
+    height: 61px;
+}
+
+/* HOME SECTION */
+#home {
+    /* background-image: url('.../img/383142572.jpg'); */
+    background: url('../img/383142572.jpg');
+     background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
+    height: 30em;
+    margin: 4px;
+    height: 100vh;
+    width: 98.5vw;
+}
+
+.h-primary {
+    color: white;
+    font-size: 60px;
+    padding-bottom: 25px;
+}
+
+#home p {
+    color: white;
+    margin: 10px;
+    padding: 10px 30px;
+    font-size: 20px;
+}
+
+
+
+#home button {
+    display: block;
+    height: 50px;
+    width: 100px;
+    border-radius: 30px;
+    border: 1px solid black;
+    color: white;
+    background-color: rgb(247, 66, 66);
+    font-size: 20px;
+}
+
+
+#home button:hover {
+    background-color: red;
+    color: black;
+}
+
+/* SERVICES SECTION */
+.sitembox {
+    display: flex;
+    font-size: 20px;
+    padding-bottom: 35px;
+}
+
+#sitembox p {
+    color: white;
+    font-size: 20px;
+    align-items: center;
+
+}
+
+.sbox img {
+    height: 160px;
+    display: block;
+    margin: auto;
+}
+
+.sbox {
+    border: 3px solid red;
+    margin: 4px 50px;
+    border-radius: 44px;
+    background-color: rgb(255, 232, 232);
+    padding: 25px;
+}
+
+.sbox h2 {
+    text-align: center;
+}
+
+
+.s-primary {
+    color: black;
+    text-align: center;
+    font-size: 3.8rem;
+    padding-bottom: 35px;
+}
+
+/* CLIENT'S SECTION */
+.c-primary {
+    color: black;
+    text-align: center;
+    font-size: 3.8rem;
+    padding: 12px;
+    padding-bottom: 35px;
+}
+
+
+#clients {
+    display: flex;
+    margin-top: 30px;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 35px;
+}
+
+#clients img {
+    height: 125px;
+}
+
+/* CONTACT SECTION */
+.co-primary {
+    color: black;
+    text-align: center;
+    font-size: 3.8rem;
+    padding-bottom: 35px;
+}
+
+#contact-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    padding-bottom: 35px;
+}
+
+#contact input {
+    width: 85vw;
+    padding: 0.7rem;
+    border-radius: 8px;
+    font-size: 30px;
+}
+
+#contact label {
+    display: block;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+#contact {
+    position: relative;
+}
+
+.form-group {
+    padding-left: 40px;
+}
+
+/* FOOTER  */
+.center {
+    color: black;
+    background-color: rgb(247, 66, 66);
+    border-radius: 10px;
+    font-weight: bolder;
+    font-size: 1.5rem;
+    text-align: center;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
